@@ -14,7 +14,7 @@ This Dockerfile builds a Ubuntu 18.04 based container, capable to use `systemd`,
 2. Clone the repository: 
 
    ```shell
-   git clone https://github.com/chzerv/centos7-systemd-ansible.git
+   git clone https://github.com/chzerv/ubuntu1804-systemd-ansible.git
    ```
 3. `cd` into the directory and run `docker build -t ubuntu1804-systemd-ansible .`
 
