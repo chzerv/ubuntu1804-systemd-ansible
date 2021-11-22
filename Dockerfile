@@ -4,6 +4,8 @@ LABEL maintainer "Chris Zervakis"
 # Avoid things that systemd does on actual hardware.
 ENV container docker
 
+ENV LANG C.UTF-8
+
 # Install Ansible via pip so we get the latest version.
 # "cryptography" is also a required dependency.
 ENV ansible_packages "ansible"
